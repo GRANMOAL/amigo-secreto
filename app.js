@@ -22,7 +22,7 @@ function mostrarAmigos() {
     amigoSecreto.forEach((nombre) => {
         listaAmigos.innerHTML +=`
             <li>
-                ${nombre}
+                ${index+1}.- ${nombre}
             </li>
         `
     })
