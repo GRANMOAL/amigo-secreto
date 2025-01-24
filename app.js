@@ -19,7 +19,7 @@ function limpiarNombre() {
 function mostrarAmigos() {
     let listaAmigos = document.querySelector('#listaAmigos');
     listaAmigos.innerHTML = '';
-    amigoSecreto.forEach((nombre) => {
+    amigoSecreto.forEach((nombre, index) => {
         listaAmigos.innerHTML +=`
             <li>
                 ${index+1}.- ${nombre}
